@@ -1,0 +1,7 @@
+name,email,phone
+John Doe, john.doe@example.com , +1 123-456-7890
+Jane Smith,jane.smith@invalid, 987654321
+Bob Brown,bob.brown@example.com, 123-456
+Alice White, alice.white@example.com, +44 20 7946 0958
+Malformed User,, 123456789
+Missing Phone,missing@example.com,

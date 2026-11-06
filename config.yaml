@@ -1,0 +1,12 @@
+input_path: "data/sample/customers.csv"
+output_path: "data/output/cleaned_customers.csv"
+validators:
+  - email
+  - phone
+  - name
+cleaners:
+  - trim
+  - nulls
+  - case
+transformers:
+  - phone_format
